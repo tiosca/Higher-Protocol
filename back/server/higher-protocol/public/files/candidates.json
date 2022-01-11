@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1, 
+        "full_name": "Gigi Lee-Jo",
+        "position": ["C++", "C#"],
+        "match_score": 1637432334088,
+        "status": 0,
+        "image": "img/job/pers_1.png",
+        "start_date": 1637432334088,
+        "location": "Bucharest, Romania"
+    },
+    {
+        "id": 2, 
+        "full_name": "Maria Mbape",
+        "position": ["React.JS Developer"],
+        "match_score": 1637432334088,
+        "status": 0,
+        "image": "img/job/pers_2.png",
+        "start_date": 1637432334088,
+        "location": "Iasi, Romania"
+    },
+    {
+        "id": 3, 
+        "full_name": "Marian Cristi",
+        "position": ["Python Senior Developer"],
+        "match_score": 1637432334088,
+        "status": 0,
+        "image": "img/job/pers_3.png",
+        "start_date": 1637432334088,
+        "location": "Iasi, Romania"
+    },
+    {
+        "id": 4, 
+        "full_name": "Jane Foster",
+        "position": ["C++ Senior developer"],
+        "match_score": 1637432334088,
+        "status": 0,
+        "image": "img/job/pers_4.png",
+        "start_date": 1637432334088,
+        "location": "Suceava, Romania"
+    },
+    {
+        "id": 5, 
+        "full_name": "Christine Ana",
+        "position": ["UI/UX designer"],
+        "match_score": 1637432334088,
+        "status": 0,
+        "image": "img/job/pers_5.png",
+        "start_date": 1637432334088,
+        "location": "Suceava, Romania"
+    },
+    {
+        "id": 6, 
+        "full_name": "Bianca Iosif",
+        "position": ["Java"],
+        "match_score": 1637432334088,
+        "status": 0,
+        "image": "img/job/pers_6.png",
+        "start_date": 1637432334088,
+        "location": "Constanta, Romania"
+    },
+    {
+        "id": 7, 
+        "full_name": "Andreea Ingrid",
+        "position": ["C++", "C#"],
+        "match_score": 1637432334088,
+        "status": 0,
+        "image": "img/job/pers_7.png",
+        "start_date": 1637432334088,
+        "location": "Suceava, Romania"
+    }
+]

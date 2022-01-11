@@ -1,0 +1,28 @@
+.skill {
+  display: flex;
+  justify-content: left;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .checkmark {
+    background: url(../../images/checkmark-checked.png);
+    width: 22px;
+    height: 22px;
+    margin-right: 12px;
+  }
+
+  .skill-name {
+    color: #0F0E0E;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  tr {
+
+    td {
+      width: 150px;
+    }
+  }
+}

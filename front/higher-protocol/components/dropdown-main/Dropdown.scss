@@ -1,0 +1,11 @@
+@use '../../styles/Variables';
+
+.form-select {
+  padding: 1rem 4rem 1rem 0.75rem;
+  border-radius: 0;
+
+}
+
+select:required:invalid {
+  color: gray;
+}

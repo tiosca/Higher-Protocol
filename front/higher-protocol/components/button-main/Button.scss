@@ -1,0 +1,19 @@
+.action_button {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    height: 37px !important;
+    padding-right: 2px !important;
+    padding-left: 2px !important;
+    color: #FFFFFF;
+    white-space:normal !important;
+    word-wrap: break-word;
+    margin-left: 22px;
+    margin-right: 22px;
+
+    span {
+        white-space:nowrap;
+    }
+}

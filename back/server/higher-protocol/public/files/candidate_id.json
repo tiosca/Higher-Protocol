@@ -1,0 +1,33 @@
+{
+    "personal_details": {
+        "first_name": "Gigi",
+        "last_name": "Lee-Jo",
+        "gender": "Female",
+        "birth_date": "April 23, 1986 (30 yrs old)"
+    },
+    "about": "Fusce viverra, leo quis consequat sagittis, nunc augue pretium odio, tincidunt eleifend mi tortor quis nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse mattis purus vitae maximus feugiat. Etiam nec augue eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras sollicitudin efficitur molestie. Proin commodo pulvinar leo, nec condimentum velit ultrices quis. Nam ut ultrices nisl. Phasellus semper pellentesque diam tincidunt tempus. Nunc venenatis est sit amet ligula tristique, et commodo purus facilisis. Sed quis ex vitae purus pulvinar dignissim eget at lectus.",
+    "experiences": [
+        {
+            "name": "Senior Software Engineer (C++, C#)",
+            "company": "ASSIST Software",
+            "duration": "April 2020 - June 2021 (1 year, 2 months)",
+            "description": "<li>Develop and design software services to improve performance, maintenance, modernization, and automation efforts</li><li>Interface software web applications with robotic devices and conveyor systems</li><li>Learn new pharmaceutical production floor technologies including control software development tools, sensors, and automatic identification equipment</li>"
+        }
+    ],
+    "degree": [
+        {"name": "Facultatea de Inginerie Electrică şi Ştiinţa Calculatoarelor", "org": "Universitatea „Ştefan cel Mare” din Suceava | 2015 - 2018"}
+
+    ],
+    "licences": [
+        {"name": "Programming in C#", "org": "Koenig | November 2018 - December 2018"},
+        {"name": "C# Essentials Certification Training Course", "org": "Koenig | June 2018 - August 2018"}
+    ],
+    "hard_skills": [{"Kotlin": 4}, {"Python": 3}, {"Android": 5}, {"iOS": 2}],
+    "soft_skills": [{"Communication": 3, "Teamwork": 2, "Organization": 5, "Creativity": 4}],
+    "image": "img/job/pers_7.png",
+    "contact_details": {
+        "email": "gigi.lee.jo@gmail.com",
+        "phone": "(+40) 767 123 456",
+        "address": "Tomis 11, Ap.9 Etaj 2, Constanta"
+    }
+}

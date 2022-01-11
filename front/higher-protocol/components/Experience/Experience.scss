@@ -1,0 +1,75 @@
+.experience {
+  display: flex;
+
+  &:not(:last-child) {
+    margin-bottom: 36px;
+  }
+
+  .logo {
+    .company-logo {
+      background: url(../../images/company_logo-usv.png) center no-repeat #EEF0F3;
+      height: 56px;
+      width: 56px;
+      border-radius: 32px;
+      position: relative;
+
+      &.usv {
+        background: url(../../images/company_logo-usv.png) center no-repeat #EEF0F3;
+      }
+
+      &.assist {
+        background: url(../../images/company_logo-assist.png) center no-repeat #EEF0F3;
+      }
+
+      &.koenig {
+        background: url(../../images/company_logo-koenig.png) center no-repeat #EEF0F3;
+      }
+    }
+
+    .checkmark {
+      background: url(../../images/checkmark-checked.png) white;
+      width: 28px;
+      height: 28px;
+      transform: translate(14px, -14px);
+      border-radius: 15px;
+      position: absolute;
+
+      &.checked {
+        background: url(../../images/checkmark-checked.png) white no-repeat center;
+      }
+
+      &.waiting {
+        background: url(../../images/checkmark-waiting.png) white;
+      }
+    }
+  }
+
+  .display {
+    display: inline-block;
+    width: calc(100% - 90px);
+    padding-top: 4px;
+
+    .duo {
+      display: block;
+      margin-left: 16px;
+
+      .name {
+        font-size: 15px;
+        font-weight: 600;
+        color: #0F0E0E;
+        margin-bottom: 0;
+      }
+
+      .org {
+        font-weight: 500;
+        font-size: 13px;
+        color: #727272;
+        margin-top: 0;
+      }
+    }
+
+    .description {
+      margin-top: 12px;
+    }
+  }
+}

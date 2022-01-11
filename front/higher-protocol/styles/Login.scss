@@ -1,0 +1,176 @@
+#login-page {
+  display: flex;
+  width: 100%;
+  height: auto;
+  font-family: Poppins, 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-color: white;
+
+  #login-page_form {
+    width: 50%;
+    background-color: #FFFFFF;
+    margin-top: 58px;
+
+    > * {
+      max-width: 554px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .logo {
+      height: 80px;
+      background: url(../images/logo.svg) no-repeat;
+    }
+
+    #description {
+      margin-top: 99px;
+      margin-bottom: 48px;
+
+      :first-child {
+        color: #4401D4;
+        font-weight: bold;
+        font-size: 36px;
+      }
+
+      :nth-child(2) {
+        font-size: 18px;
+      }
+    }
+
+    #login-options {
+      margin-bottom: 20px;
+      background-color: rgba(118, 118, 128, 0.12);
+      color: #0F0E0E;
+      border-radius: 8px;
+      height: 32px;
+
+
+      .btn-secondary {
+        margin-top: 2px;
+        height: 28px;
+        line-height: 17px;
+        color: black;
+        border: none;
+        border-radius: 6px;
+        background-color: transparent;
+
+        &.selected {
+          background-color: white;
+        }
+      }
+
+      input {
+        &:focus-visible, &:focus {
+          border-left: 3px solid #0C31F1;
+        }
+      }
+    }
+
+    .login-input {
+      input {
+        height: 74px;
+        border-radius: 0;
+        border: 1px solid #C1BBBB;
+        font-size: 18px;
+
+        &:focus {
+          border-left: 4px solid #0C31F1;
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+      }
+
+
+      span {
+        position: relative;
+        display: block;
+
+        label {
+          position: absolute;
+          z-index: 1;
+          margin-left: 27px;
+          margin-top: 12px;
+        }
+
+        input {
+          padding-top: 39px;
+          padding-left: 27px;
+        }
+      }
+    }
+
+    .login-help {
+      display: flex;
+      justify-content: space-between;
+      height: 24px;
+      margin-top: 19px;
+
+      label {
+        margin-left: 8px;
+        cursor: pointer;
+      }
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          color: #999;
+        }
+      }
+    }
+
+    .login-buttons {
+      margin-top: 60px;
+
+      #login-btn {
+        margin-right: 33px;
+      }
+
+      #signup {
+        background-color: white;
+        border-color: #4401D4;
+        color: #4401D4;
+      }
+    }
+
+    .alternative-login {
+      display: flex;
+      margin-top: 90px;
+
+      button {
+        width: 30px;
+        height: 30px;
+        border: none;
+        padding: 0;
+
+        &:not(:last-child) {
+          margin-right: 33px;
+        }
+      }
+
+      p {
+        margin-right: 60px;
+      }
+
+      .btn-facebook {
+        background: url(../images/FacebookLogo.svg) no-repeat;
+      }
+
+      .btn-linkedin {
+        background: url(../images/LinkedinLogo.svg) no-repeat;
+      }
+
+      .btn-google {
+        background: url(../images/GoogleLogo.svg) no-repeat;
+      }
+    }
+
+  }
+
+  .login_image {
+    width: 50%;
+    background: url(../images/image30.png) no-repeat;
+  }
+
+  .text-color {
+    color: #4401D4;
+  }
+}

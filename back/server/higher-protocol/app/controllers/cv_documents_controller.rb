@@ -1,0 +1,2 @@
+class CvDocumentsController < ApplicationController
+end

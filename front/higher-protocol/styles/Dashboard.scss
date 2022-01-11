@@ -1,0 +1,43 @@
+.dashboard-page {
+  .cards {
+    height: 169px;
+    margin-bottom: 31px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .graph {
+    background-color: white;
+    height: 485px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    overflow: hidden;
+    img{
+      object-fit: fill;
+    }
+  }
+
+  .agenda {
+    display: flex;
+
+    .queue {
+      background-color: white;
+      height: 591px;
+      width: 70%;
+      margin-right: 30px;
+      border-radius: 20px;
+
+    }
+
+    .calendar {
+      background-color: white;
+      width: 30%;
+      height: 591px;
+      border-radius: 20px;
+      overflow: hidden;
+      img{
+        object-fit: cover;
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+//libs
+@import "bootstrap/dist/css/bootstrap.css";
+//@import "bootstrap/scss/bootstrap";
+
+//fonts
+//@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+//defaults
+@import "styles/Variables";
+@import "styles/Defaults";
+
+//pages
+@import "styles/Layout";
+@import "styles/Assessments";
+@import "styles/Candidates";
+@import "styles/Dashboard";
+@import "styles/Jobs";
+@import "styles/Messages";
+@import "styles/Login";
+@import "styles/Profiles";
+@import "styles/Statistics";
+@import "styles/CandidateProfile";
+@import "styles/JobCreate";
+@import "components/button-main/Button";
+@import "components/edit-main/Edit";
+@import "components/text-area-main/TextArea";
+@import "components/dropdown-main/Dropdown";
+@import "components/Experience/Experience";
+@import "components/Skill/Skill";
+@import "components/StarRating/StarRating";
+@import "components/Card/Card";
+@import "components/CandidatesTable/CandidatesTable";

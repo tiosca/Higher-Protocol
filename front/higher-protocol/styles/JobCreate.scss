@@ -1,0 +1,109 @@
+.card-job {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 0px rgba(62, 73, 84, 0.04);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.tab-header {
+    padding-left: 40px;
+}
+
+.big_label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #0F0E0E;
+}
+
+.margin-tb-sm {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.bigger-space {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.bigger-space-contract {
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+.date-form {
+    color: #C1BBBB;
+    border: 1px solid #C1BBBB;
+}
+
+.date-form label {
+    padding-left: 20px;
+    padding-top: 11px;
+    margin-bottom: 0px;
+}
+
+.date-form .form-control {
+    border: 0px;
+    padding-left: 20px;
+}
+
+.row-candidate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    :first-child {
+        padding-right: 10px;
+    }
+}
+
+.matching-score {
+    padding-top:35px;
+}
+
+.button-add {
+    margin-top: 32px;
+}
+
+.contract_success {
+    color: #1BD084;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.contract_reward {
+    color: #4501D4;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.contract_condition {
+    background: #F2F2F2;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.class_row {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.m-t-1 {
+    margin-top:8px
+}
+
+.m-t-3 {
+    margin-top:24px
+}
+
+.m-r-1 {
+    margin-right: 8px;
+}
+
+.m-r-3 {
+    margin-right: 24px;
+} 

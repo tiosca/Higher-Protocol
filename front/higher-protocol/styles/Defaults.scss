@@ -1,0 +1,271 @@
+html {
+  height: 100%;
+  body {
+    height: 100%;
+    background: #F2F2F2;
+    #__next {
+      height: 100%;
+    }
+    
+  }
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.btn.btn-primary {
+  height: 54px;
+  padding: 0 42px;
+  border-radius: 40px;
+  background-color: #4401D4;
+  font-weight: bold;
+  color: white;
+}
+
+.helper-text {
+  color: #999;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.subtitle {
+  display: block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: $theme-text-second-color;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.caption {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  color: #808080;
+}
+
+.caption_bold {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  color: #0F0E0E;
+}
+
+.base-table {
+  border: none;
+  --bs-table-bg: transparent;
+
+  & > :not(caption) > * > * {
+    border-bottom-width: 0;
+  }
+
+  th {
+    font-size: 13px;
+    font-weight: normal;
+    color: #808080;
+    padding: 17px 10px 15px;
+  }
+
+  td {
+    height: 73px;
+    line-height: 73px;
+    padding: 0 0 0 8px;
+    color: #0F0E0E;
+  }
+
+  tr {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #0F0E0E;
+
+    th:first-child, td:first-child {
+      padding-left: 32px;
+    }
+
+    th:nth-child(1), td:nth-child(1) {
+      width: 25%;
+    }
+
+    th:nth-child(2), td:nth-child(2) {
+      width: 19%;
+    }
+
+    th:nth-child(3), td:nth-child(3) {
+      width: 13%;
+    }
+
+    th:nth-child(4), td:nth-child(4) {
+      width: 14%;
+    }
+
+    th:nth-child(5), td:nth-child(5) {
+      width: 10%;
+    }
+
+    th:nth-child(6), td:nth-child(6) {
+      width: 10%;
+    }
+
+    th:nth-child(7), td:nth-child(7) {
+      width: 16%;
+    }
+  }
+
+
+  tbody tr:hover {
+    border-left: 4px solid #4501D4;
+    background-color: #F9F9F9;
+  }
+
+  .user-picture {
+    width: 57px;
+    height: 57px;
+    border-radius: 50px;
+    overflow: hidden;
+    display: inline-flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    img {
+      width: 100%;
+      height: 100%;
+      transform: scale(1.3);
+      transform-origin: 50% 50%;
+    }
+  }
+
+  .options {
+    button {
+      position: relative;
+      background-color: transparent;
+      border: none;
+      width: 70px;
+      height: 30px;
+      box-shadow: none !important;
+
+      div {
+        background: url(../images/options.png) no-repeat;
+        width: 30px;
+        height: 8px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+  .matching-score {
+    font-weight: bold;
+    font-size: 32px;
+
+    &.green {
+      color: #1BD084;
+    }
+
+    &.light-orange {
+      color: #E99B03;
+    }
+
+    &.orange {
+      color: #D0671B;
+    }
+
+    &.red {
+      color: #D0261B;
+    }
+  }
+
+  .full-name {
+    position: relative;
+
+    a {
+      display: block;
+      text-decoration: none;
+      color: #0F0E0E;
+    }
+
+    span {
+      margin-left: 65px;
+    }
+  }
+}
+
+.th {
+  border: 1px solid black;
+  padding: 5px;
+  margin-right: 50px;
+}
+
+.pagination {
+  position: fixed;
+  bottom: 60px;
+  right: 42px;
+
+  p {
+    color: #727279;
+    font-size: 12px;
+    line-height: 16px;
+    margin-right: 52px;
+  }
+
+  .previous {
+    background: url(../images/previous.png) no-repeat;
+    width: 13px;
+    height: 13px;
+    position: relative;
+    transform: translateY(60%);
+  }
+
+  .next {
+    background: url(../images/next.png) no-repeat;
+    width: 13px;
+    height: 13px;
+    position: relative;
+    transform: translateY(60%);
+  }
+
+  button {
+    padding: 0;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    color: black;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    box-shadow: none !important;
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    &.selected {
+      color: white;
+      background-color: #4401D4;
+
+      &:disabled {
+        opacity: 1;
+      }
+    }
+  }
+}
